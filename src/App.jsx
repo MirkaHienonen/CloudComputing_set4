@@ -7,7 +7,7 @@ import neutral from './assets/neutral.png';
 
 const App = () => {
   const sentiment = new Sentiment();
-  const [inputText, setInputText] = useState("");
+  const [inputText, setInputText] = useState(" ");
   const [result, setResult] = useState();
 
   useEffect(() => {
